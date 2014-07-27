@@ -1,4 +1,4 @@
-tidyData
+Getting & Cleaning Data
 ========
 
 This outlines the way in which the "run_analysis.R" script should be interpreted.
@@ -20,10 +20,12 @@ The tidy data output expected out of the processing of this data, is a dataset t
 
 A snapshot can be found in the github repository (the *tidyOutput.csv* file)
 
+The data that the script produces is tidy in the sense that **it contains the values of each observation in a separate row and the columns represent the different variables (the metric or the subject or the activity that is being obeserved).**
+
 The run_Analysis script
 =======================
 
-This generates the tidy data output that can be used for further processing by data scientists from the data input. It makes use of various R functions for doing so,
+This generates the tidy data output that can be used for further processing by data scientists from the data input. It makes use of various R functions for doing so. A Code book is also avalable (refer *codeBook.md*) which has a description of the tidy data file contents.
 
 Running the Script
 ==================
@@ -48,5 +50,5 @@ Assumptions
 ===========
 
 This script assumes that:
-1. You have the Samsung dataset (extracted version from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in your R working directory
-2. You have the "plyr" package in R installed. If not, install it using **install.packages("plyr")** command
+- You have the Samsung dataset (extracted version from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in your R working directory
+- You have the "plyr" package in R installed. If not, install it using **install.packages("plyr")** command
