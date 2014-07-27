@@ -9,23 +9,23 @@ Data Input
 The raw input considered here is the *Human Activity Recognition Using Smartphones Dataset
 Version 1.0* that contains data collected from the accelerometers from the Samsung Galaxy S smartphone from 30 volunteers(subjects) while each performed six activities (Walking, Standing etc.)
 
-More information on the dataset can be had from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+More information on the dataset can be had from [here] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-A snapshot can be found in the github repository (the folder *UCI HAR Dataset*)
+A snapshot can be found in the github repository (the folder [*UCI HAR Dataset*] (https://github.com/vgsarvind/tidyData/tree/master/UCI%20HAR%20Dataset))
 
 Data Output
 ===========
 
 The tidy data output expected out of the processing of this data, is a dataset that contains the average of each variable for a combination of each unique activity and subject.
 
-A snapshot can be found in the github repository (the *tidyOutput.csv* file)
+A snapshot can be found in the github repository (the [*tidyOutput.csv*] (https://github.com/vgsarvind/tidyData/blob/master/tidyOutput.csv) file)
 
 The data that the script produces is tidy in the sense that **it contains the values of each observation in a separate row and the columns represent the different variables (the metric or the subject or the activity that is being obeserved).**
 
 The run_Analysis script
 =======================
 
-This generates the tidy data output that can be used for further processing by data scientists from the data input. It makes use of various R functions for doing so. A Code book is also avalable (refer *codeBook.md*) which has a description of the tidy data file contents.
+This generates the tidy data output that can be used for further processing by data scientists from the data input. It makes use of various R functions for doing so. A Code book is also avalable (refer [*codeBook.md*] (https://github.com/vgsarvind/tidyData/blob/master/codeBook.md) ) which has a description of the tidy data file contents.
 
 Running the Script
 ==================
@@ -50,5 +50,5 @@ Assumptions
 ===========
 
 This script assumes that:
-- You have the Samsung dataset (extracted version from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in your R working directory
+- You have the Samsung dataset (extracted version from [here] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) ) in your R working directory
 - You have the "plyr" package in R installed. If not, install it using **install.packages("plyr")** command
